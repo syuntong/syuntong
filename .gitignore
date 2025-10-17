@@ -1,0 +1,53 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+/api/vendor/
+node_modules/
+/vendor/
+
+# Composer
+/api/composer.lock
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+/api/logs/
+
+# Cache and temporary files
+cache/
+tmp/
+temp/
+/api/cache/
+
+# Build files
+dist/
+build/
+
+# Testing
+/api/tests/_output/
+.phpunit.result.cache
+coverage/
+
+# User uploads
+uploads/
+/api/public/uploads/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
